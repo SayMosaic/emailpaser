@@ -1,0 +1,28 @@
+{
+  "name": "emailparser",
+  "version": "0.0.1",
+  "description": "email parser",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/alex829/emailparser.git"
+  },
+  "keywords": [
+    "'email",
+    "parser'"
+  ],
+  "author": "alex zhang",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/alex829/emailparser#readme",
+  "dependencies": {
+    "nodeunit": "^0.11.2",
+    "underscore": "^1.8.3"
+  }
+}
