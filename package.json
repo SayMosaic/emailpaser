@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodeunit test/email_reply_parser_test.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,9 @@
   "dependencies": {
     "nodeunit": "^0.11.2",
     "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-plugin-you-dont-need-lodash-underscore": "^6.3.1"
   }
 }
