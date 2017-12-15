@@ -44,7 +44,6 @@ exports.test_reads_lines_separate_string = function(test) {
     test.done()
 }
 
-
 exports.test_reads_lines_separate_string_and_number = function (test) {
     const reply = get_email('email_lines_separate_string_number');
     test.equal(2, reply.fragments.length);
@@ -54,7 +53,6 @@ exports.test_reads_lines_separate_string_and_number = function (test) {
     test.equal('Hi Tom,\n\n    hello\n', reply.fragments[0].to_s());
     test.done()
 }
-
 
 exports.test_reads_inline_replies = function(test){
     const reply = get_email('email_reads_inline_replies');
