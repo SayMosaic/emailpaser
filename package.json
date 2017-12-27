@@ -1,7 +1,7 @@
 {
-  "name": "emailparser",
-  "version": "0.0.1",
-  "description": "email parser",
+  "name": "saymosaic-email-parser",
+  "version": "0.0.3",
+  "description": "Get rid of unwanted parts of email body, signatures etc.",
   "main": "index.js",
   "directories": {
     "lib": "lib",
@@ -10,15 +10,12 @@
   "scripts": {
     "test": "nodeunit test/email_reply_parser_test.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@bitbucket.org/alex829/emailparser.git"
-  },
+  "repository": "https://github.com/SayMosaic/emailpaser",
   "keywords": [
     "'email",
     "parser'"
   ],
-  "author": "alex zhang",
+  "author": "Hongru Zhang",
   "license": "ISC",
   "homepage": "https://bitbucket.org/alex829/emailparser#readme",
   "dependencies": {
