@@ -2,7 +2,7 @@
   "name": "saymosaic-email-parser",
   "version": "0.0.6",
   "description": "Get rid of unwanted parts of email body, signatures etc.",
-  "main": "index.js",
+  "main": "./lib/emailreplyparser.js",
   "directories": {
     "lib": "lib",
     "test": "test"
