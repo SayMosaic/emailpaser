@@ -1,6 +1,6 @@
 {
   "name": "saymosaic-email-parser",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "description": "Get rid of unwanted parts of email body, signatures etc.",
   "main": "index.js",
   "directories": {
@@ -20,7 +20,8 @@
   "homepage": "https://bitbucket.org/alex829/emailparser#readme",
   "dependencies": {
     "nodeunit": "^0.11.2",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "user": "0.0.0"
   },
   "devDependencies": {
     "eslint": "^4.13.1",
