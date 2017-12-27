@@ -16,7 +16,7 @@ Platform:
 npm manifest: 
   {
     "name": "saymosaic-email-parser",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "description": "Get rid of unwanted parts of email body, signatures etc.",
     "main": "index.js",
     "directories": {
